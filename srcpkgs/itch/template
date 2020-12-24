@@ -2,7 +2,7 @@
 pkgname=itch
 version=1.24.0
 revision=1
-archs="i686 x86_64"
+archs="x86_64"
 wrksrc="${pkgname}-setup-${version}"
 build_style=go
 go_import_path="github.com/itchio/itch-setup"
